@@ -6,7 +6,7 @@ import { Dimensions } from 'react-native';
 
 // Initialize Apollo Client
 const client = new ApolloClient({
-  uri: 'https://api.thegraph.com/subgraphs/name/your-subgraph-name',
+  uri: 'https://api.studio.thegraph.com/proxy/87334/gyema/0.0.2/graphql',
   cache: new InMemoryCache()
 });
 
